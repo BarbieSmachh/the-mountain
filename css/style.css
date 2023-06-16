@@ -108,6 +108,14 @@ button {
     flex-direction: column;
   }
 
+  #photos-tablette{
+    display: block !important;
+  }
+
+  #navette, #san-francisco-bridge{
+    display: none !important;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -116,4 +124,8 @@ button {
         width: 50% !important;
         font-size: 14px;
       }
+
+    #photos .row{
+      flex-direction: column !important;
+    }
 }
